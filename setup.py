@@ -8,7 +8,7 @@ setup(
         "setuptools",
         "flask>=0.2",
         "asgiref",
-        "youtube-dl",
+        "yt-dlp",
     ],
     author="Dmytro Tsapiv, Konstantin Astafurov",
     author_email="konstantin.astafurov@gmail.com",
