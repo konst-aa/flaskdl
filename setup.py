@@ -1,11 +1,14 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name="flaskdl",
     version="0.1",
-    packages=["flaskdl"],
+    packages=find_packages(),
     install_requries=[
-        "flask",
+        "setuptools",
+        "flask>=0.2",
+        "asgiref",
+        "youtube-dl",
     ],
     author="Dmytro Tsapiv, Konstantin Astafurov",
     author_email="konstantin.astafurov@gmail.com",
